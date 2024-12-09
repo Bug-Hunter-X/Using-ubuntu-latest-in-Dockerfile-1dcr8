@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Dockerfiles: using the `ubuntu:latest` image. This can cause reproducibility issues because the contents of `latest` can change unexpectedly.  The solution shows how to use a specific version of Ubuntu for better consistency.
